@@ -1,4 +1,4 @@
-# Spam Classifier
+# Spam Filtering
 
 ## Overview
 
