@@ -29,34 +29,28 @@ You can run the project directly in Google Colab:
 
 ---
 
-🛠️ Run Locally
-1. Clone the repository
+## 🛠️ Run Locally
+
+### 1. Clone the repository
 git clone https://github.com/ISHANT14gg/spam-filtering.git
 cd spam-filtering
 
-2. Install dependencies
+### 2. Install dependencies
 pip install pandas scikit-learn joblib
 
-3. Run the notebook
-
-Launch Jupyter Notebook or VS Code, then open:
-
+### 3. Run the notebook
+# Open Jupyter Notebook or VS Code, then open:
 spam_filtering.ipynb
 
+# Run all cells to train the model and test predictions.
 
-Run all cells to train the model and test predictions.
+### 📊 Model Performance (Example Results)
+Accuracy:       ~82%
+Spam Precision: ~88%
+Spam Recall:    ~65%
+Ham Precision:  ~94%
+Ham Recall:     ~98%
 
-📊 Model Performance (Example Results)
-Accuracy:          ~82%
-Spam Precision:    ~88%
-Spam Recall:       ~65%
-Ham Precision:     ~94%
-Ham Recall:        ~98%
-
-⭐ Key Strength
-
-Very low false positives → model almost never marks normal messages as spam
-
-Excellent HAM recall (98%), which is crucial in real-world systems
-
-Joblib (model persistence)
+### ⭐ Key Strength
+- Very low false positives → model rarely marks normal messages as spam  
+- Excellent HAM recall (98%), which is crucial for real-world systems  
